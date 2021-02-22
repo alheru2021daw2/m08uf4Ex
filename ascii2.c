@@ -11,6 +11,7 @@ int main() {
 	n='Z'-'A';
 	for (i=n;i>=0;i--) {
 		c='A'+i;
+		printf("%c    %x   %d\n",c+32,c+32,c+32);
 		printf("%c    %x   %d\n",c,c,c);
 	}
 	return(0);
